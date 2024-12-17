@@ -21,3 +21,6 @@ git push -u origin [tên nhánh hiện tại]
 git add -A 
 git commit -m " Create homepage html "
 git push
+
+-- Tạo nhánh 
+
