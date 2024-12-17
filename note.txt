@@ -1,0 +1,22 @@
+Đẩy code từ local lên remote:
+
++ Repo local: source code trong máy tính
++ Repo remote: source trên github 
+
+-- Liên kết vscode và github
+git config --global user.name "username"
+git congig --global user.email "email"
+
+git remote add origin " URL " - example: https://github.com/MikeNgo93/node_repo.git
+
+-- Đẩy lần đầu (trên github chưa có nhánh master)
+
+git add -A 
+git commit -m " Create homepage html " 
+git push -u origin [tên nhánh hiện tại]
+
+-- Đẩy lần 2 trở đi
+
+git add -A 
+git commit -m " Create homepage html "
+git push
