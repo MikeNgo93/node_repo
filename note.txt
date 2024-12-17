@@ -34,5 +34,4 @@ git checkout -b [tên nhánh]
 - chuyển nhánh
 git checkout [tên nhánh]
 
-
-
+this is test 
