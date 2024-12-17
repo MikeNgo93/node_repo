@@ -22,5 +22,16 @@ git add -A
 git commit -m " Create homepage html "
 git push
 
--- Tạo nhánh 
+-- Xem các nhánh có trong máy
+git branch 
+
+-- Gom code từ 2 login về master (đứng tại nhánh master)
+git merge login 
+
+-- tạo nhánh
+git checkout -b [tên nhánh]
+
+- chuyển nhánh
+git checkout [tên nhánh]
+
 
