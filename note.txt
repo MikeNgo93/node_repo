@@ -25,13 +25,14 @@ git push
 -- Xem các nhánh có trong máy
 git branch 
 
--- Gom code từ 2 login về master (đứng tại nhánh master)
-git merge login 
+-- merge về main (phải đứng ở main trước)
+git merge login
 
 -- tạo nhánh
 git checkout -b [tên nhánh]
 
 - chuyển nhánh
 git checkout [tên nhánh]
+
 
 
